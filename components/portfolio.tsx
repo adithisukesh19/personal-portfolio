@@ -58,7 +58,7 @@ export default function Portfolio() {
           <div className="hero-copy">
             <p className="eyebrow"><span className="status-dot" /> Available for opportunities</p>
             <h1>Building things<br /><em>that matter.</em></h1>
-            <p className="hero-intro">I&apos;m <strong>Adhiti</strong>, a full stack developer focused on creating reliable, thoughtful web experiences with the MERN stack.</p>
+            <p className="hero-intro">I&apos;m <strong>Adithi</strong>, a full stack developer focused on creating reliable, thoughtful web experiences with the MERN stack.</p>
             <div className="hero-actions"><a className="primary-button" href="#projects">View my work <ArrowUpRight size={17} /></a><a className="text-button" href="#contact">Download resume <Download size={16} /></a></div>
             <div className="social-row"><a href="https://github.com" aria-label="GitHub"><GitBranch size={18} /></a><a href="https://linkedin.com" aria-label="LinkedIn"><AtSign size={18} /></a><a href="mailto:hello@example.com" aria-label="Email"><Mail size={18} /></a></div>
           </div>
@@ -76,7 +76,7 @@ export default function Portfolio() {
 
         <section id="contact" className="contact-section"><div className="section-wrap contact-inner"><div className="section-label">04 <span>Get in touch</span></div><div className="contact-grid"><div><h2>Have a project<br />in mind? <em>Let&apos;s talk.</em></h2><p>I&apos;m always open to hearing about new opportunities, collaborations, or just having a good conversation about the web.</p><div className="contact-links"><a href="mailto:hello@example.com"><Mail size={17} /> hello@example.com</a><a href="https://linkedin.com"><AtSign size={17} /> linkedin.com/in/yourname</a></div></div><form onSubmit={(event) => { event.preventDefault(); setSent(true) }}><label>Name<input required name="name" placeholder="Your name" /></label><label>Email<input required type="email" name="email" placeholder="you@example.com" /></label><label>Message<textarea required name="message" placeholder="Tell me a little about your project..." rows={4} /></label><button className="primary-button" type="submit">{sent ? 'Message sent' : 'Send message'} {sent ? <Check size={17} /> : <Send size={16} />}</button></form></div></div></section>
       </main>
-      <footer className="site-footer"><div className="section-wrap footer-inner"><span>© 2026 Adhiti</span><span>Built with curiosity &amp; caffeine</span><div className="footer-social"><a href="https://github.com"><GitBranch size={17} /></a><a href="https://linkedin.com"><AtSign size={17} /></a></div></div></footer>
+      <footer className="site-footer"><div className="section-wrap footer-inner"><span>© 2026 Adithi</span><span>Built with curiosity &amp; caffeine</span><div className="footer-social"><a href="https://github.com"><GitBranch size={17} /></a><a href="https://linkedin.com"><AtSign size={17} /></a></div></div></footer>
     </div>
   )
 }
