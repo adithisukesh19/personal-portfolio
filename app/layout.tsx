@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Adhiti — Full Stack MERN Developer',
+  title: 'Adithi — Full Stack MERN Developer',
   description: 'Portfolio of a Full Stack MERN Developer building thoughtful, reliable web experiences.',
   generator: 'v0.app',
 }
